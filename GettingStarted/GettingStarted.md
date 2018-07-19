@@ -45,5 +45,8 @@ The Stack Club workflow is to edit the club notebooks (or start new ones) in a s
 ### Test Data
 Broadly useful datasets should be available in `/project/shared/data`  - this is a group-writeable folder, so feel free to contribute public data there. You can also use your personal `/project/<username>` folder for datasets that you want to share, but may not be as generally applicable. As a rule, Stack Club notebooks should use data in `/project/shared/data`.
 
+### Permissions for access
+In some instances, you might not be able to access datasets in `/project/shared/data` - this will result in an error while running a notebook which needs to retreive data.  A clear indication of this kind of problem is when you are in the terminal mode in Jupyterlab and issue a commend `cd project/shared/data` - you get `permission denied`.  Adam kindly helped!  
+
 
 
